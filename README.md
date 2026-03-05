@@ -118,4 +118,4 @@ PARTICLE_COLOR = 0xFFC9ED  # 粒子颜色 (粉色)
 ## 🎥 效果展示
 
 - **运行演示视频**
-<video src="https://github.com/wrh-human/2026_CG_work0_wrh/raw/refs/heads/master/videos/效果展示.mp4" controls width="800"></video>
+  <img src="videos/demo.gif" alt="演示动画" width="800">
