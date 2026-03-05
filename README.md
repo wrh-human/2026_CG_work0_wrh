@@ -53,6 +53,7 @@ WINDOW_RES = (800, 600)    # 窗口分辨率
 PARTICLE_RADIUS = 1.5      # 粒子绘制半径
 PARTICLE_COLOR = 0xFFC9ED  # 粒子颜色 (粉色) 
 
+```
 ### `physics.py` —— 物理引擎
 
 封装万有引力计算核心算法，利用 Taichi 的 GPU 并行能力：
