@@ -118,3 +118,4 @@ PARTICLE_COLOR = 0xFFC9ED  # 粒子颜色 (粉色)
 ## 🎥 效果展示
 
 - **运行演示视频**
+<video src="videos/效果展示.mp4" controls width="800"></video>
