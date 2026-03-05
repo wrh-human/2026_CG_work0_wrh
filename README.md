@@ -13,20 +13,19 @@
 ### 1. 目录结构
 
 本项目采用标准的 `src` 布局 (Source Layout)，通过物理隔离核心代码与配置文件，彻底解决相对路径混淆和“根目录污染”问题：
-
+```
 2026_CG_work0_wrh/
-├── src/ # 核心源代码目录
-│ ├── init.py # 包初始化文件
-│ ├── main.py # 程序入口：初始化并启动仿真
-│ ├── physics.py # 物理引擎：万有引力计算
-│ ├── config.py # 配置文件：仿真参数设置
-│ └── test.py # 单元测试：验证物理逻辑
-├── .gitignore # Git忽略配置
-├── README.md # 项目文档
-├── pyproject.toml # uv项目配置文件
-└── uv.lock # 依赖版本锁定文件
-
-
+├── src/                          # 核心源代码目录
+│   ├── __init__.py               # 包初始化文件
+│   ├── main.py                    # 程序入口：初始化并启动仿真
+│   ├── physics.py                  # 物理引擎：万有引力计算
+│   ├── config.py                    # 配置文件：仿真参数设置
+│   └── test.py                       # 单元测试：验证物理逻辑
+├── .gitignore                      # Git忽略配置
+├── README.md                       # 项目文档
+├── pyproject.toml                  # uv项目配置文件
+└── uv.lock                          # 依赖版本锁定文件
+```
 ### 2. 技术栈选型
 
 | 组件 | 技术选型 | 作用 |
@@ -53,3 +52,5 @@ BOUNCE_COEF = -0.8         # 边界反弹能量损耗# --- 渲染系统参数 --
 WINDOW_RES = (800, 600)    # 窗口分辨率
 PARTICLE_RADIUS = 1.5      # 粒子绘制半径
 PARTICLE_COLOR = 0xFFC9ED  # 粒子颜色 (粉色) 
+
+
