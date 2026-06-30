@@ -6,6 +6,10 @@
 
 **项目地址**: [https://github.com/wrh-human/2026_CG_work0_wrh](https://github.com/wrh-human/2026_CG_work0_wrh)
 
+**姓名**：王若涵
+
+**学号**：202411081042
+
 ---
 
 ## 🏗️ 项目架构
